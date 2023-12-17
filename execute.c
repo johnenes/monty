@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
-* execute - executes the opcode
+i* execute - executes the opcode
 * @stack: head linked list - stack
 * @counter: line_counter
 * @file: poiner to monty file
@@ -18,12 +18,6 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				{"sub", f_sub},
 				{"div", f_div},
 				{"mul", f_mul},
-				{"mod", f_mod},
-				{"pchar", f_pchar},
-				{"pstr", f_pstr},
-				{"rotl", f_rotl},
-				{"rotr", f_rotr},
-				{"queue", f_queue},
 				{"stack", f_stack},
 				{NULL, NULL}
 				};
